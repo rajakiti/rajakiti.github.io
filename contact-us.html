@@ -16,7 +16,7 @@
 				<h1 class="logo"><em></em><a href="index.html"><img src="images/logo.png" alt="logo"></a><em></em></h1>
 				<nav>
 					<ul>
-						<li class="border-right"><a class="active home-icon" href="index.html"></a></li>
+						<li class="border-right"><a class="home-icon" href="index.html"></a></li>
 						<li>
 							<a href="about-us.html">About</a>
 						</li>
@@ -27,7 +27,7 @@
 							<a href="news.html">News</a>
 						</li>
 						<li>
-							<a href="contact-us.html">Contact</a>
+							<a href="contact-us.html" class="active">Contact</a>
 						</li>
 						<ul class="social-icons-group">
 							<li>
@@ -49,90 +49,49 @@
 			</div>
 		</header>
 		<div class="clear"></div>
-		<div class="slider-section">
-			<div class="flexslider">
-				<div class="single-item">
-					<div>
-						<img src="images/banner.jpg" />
-					</div>
-				<!-- 	<div>
-						<img src="images/banner.jpg" />
-					</div>
-					<div>
-						<img src="images/banner.jpg" />
-					</div>
-					<div>
-						<img src="images/banner.jpg" />
-					</div> -->
-				</div>
-				<div class="container">
-					<div class="feature-rbase">
-						<a href="http://www.yankodesign.com/2015/11/02/illuminaty/" target="_blank">Featured In Yanko Design</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="clear"></div>
 		<div class="container">
-			<div class="index-page">
-				<div class="panel-content">
-					<span>r base</span> is a design studio dedicated to bring products and services which matter to market and make a difference.
-				</div>
-				<div class="clear"></div>
-				<h2 class="main-title">
-					<span>Our Work</span>
-				</h2>
-				<div class="clear"></div>
-				<div class="products-images">
-					<img src="images/products.png" />
-				</div>
-				<div class="clear"></div>
-				<div class="view-all-products">
-					<a href="products.html" class="default-btn">View All Works</a>
-				</div>
-				<div class="clear"></div>
-				<div class="panel-row">
-					<div class="left-section">
-						<div class="about-rbase">
-							<div class="image">
-								<img src="images/about-icon.png" />
-							</div>
-							<h2 class="title">
-								About <span>r base</span>
-							</h2>
-							<p>
-								A strategic design consultancy, born out of a meeting in Hyderabad. We are individuals who believe that designing a product - is a responsibility. In order to create something practical, economical and visually pleasing.
-							</p>
-							<div class="read-more">
-								<a href="about-us.html">Read More</a>
-							</div>
-						</div>
-					</div>
-					<div class="right-section">
-						<div class="latest-news">
-							<div class="image">
-								<img src="images/news-icon.png" />
-							</div>
-							<h2 class="title">
-								Latest News
-							</h2>
-							<h3>Y lamp is geometric and direct in its appeal</h3>
-							<span>November 02, 2015/ Yanko Design</span>
-							<p>Just about every designer at least once in their lives ends up designing a lamp. There’s that urge to do something...</p>
-							<div class="read-more">
-								<a href="news.html">Read More</a>
-							</div>
+			<section>
+				<div class="contact-us-page">
+					<div class="contact-us">
+						<h2 class="title">Contact Us</h2>
+						<div class="contact-form">
+							<form action="contact.php" method="POST">
+								<div>
+									<label for="name">Your Name: </label>
+									<input type="text" name="name" autofocus>
+								</div>
+								<div>
+									<label for="number">Phone Number: </label>
+									<input type="text" name="phone">
+								</div>
+								<div>
+									<label for="company">Company<small>(optional)</small>: </label>
+									<input type="text" name="company">
+								</div>
+								<div>
+									<label for="message">Message: </label>
+									<textarea name="info"></textarea>
+								</div>
+								<div class="action">
+									<input type="submit" value="Submit" class="submit-btn">
+								</div>
+							</form>
+							<address>
+								<div class="contact-address">
+									<h3>Contact Address</h3>
+									<p>
+										303, Siri sai orchid,<br>
+										Image hospital lane,<br>
+										Madhapur, Hyderabad,<br>
+										India - 500081.<br>
+										<em>Email: <a href="mailto:raj@rbase.in">raj@rbase.in</a></em>
+									</p>
+								</div>
+							</address>
 						</div>
 					</div>
 				</div>
-				<div class="clear"></div>
-				<div class="contact-us-now">
-					<h1>"Let's work together"</h1>
-					<div class="contact-now-btn">
-						<a href="contact-us.html" class="default-btn">Contact Us Now!</a>
-					</div>
-				</div>
-			</div>
+			</section>
 		</div>
 		<div class="clear"></div>
 		<footer>
@@ -165,17 +124,6 @@
 			</div>
 		</footer>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="js/slick.min.js"></script>
-		<script type="text/javascript">
-		$( document ).ready(function() {
-			$('.single-item').slick({
-				dots: true,
-				arrows: true,
-				autoplay: true,
-			});
-		});
-		</script>
 		<script type="text/javascript" src="js/dev-jquery.js"></script>
 		<script type="text/javascript">
 			$(document).ready(function() {
